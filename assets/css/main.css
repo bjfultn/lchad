@@ -1412,7 +1412,8 @@
 	ul.contact li {
 		position: relative;
 		border-top: solid 1px #ddd;
-		padding: 1.3em 0 1.3em 7em;
+		padding: em 0 1.3em 7em;
+		margin: 10px 0;
 	}
 
 		ul.contact li h3 {
@@ -1423,11 +1424,11 @@
 		}
 
 		ul.contact li p {
-			margin: 0;
+			margin: 6em;
 		}
 
 		ul.contact li:first-child {
-			padding-top: 0;
+			padding-top: 0em;
 			border-top: 0;
 		}
 
@@ -1819,12 +1820,16 @@
 
 				.box.post h2 {
 					font-size: 2.5em;
-					letter-spacing: -0.015em;
+					letter-spacing: -0.01em;
 				}
 
 				.box.post header > p {
 					margin-top: 1.25em;
 					font-size: 1.25em;
+				}
+				
+				.box.post text {
+					text-align: justify;
 				}
 
 		/* Button */
@@ -2040,6 +2045,9 @@
 
 				#intro p {
 					margin: 0;
+					max-width: 260px;
+					text-align: justify;
+					margin-left: 53px;
 				}
 
 				#intro .middle {
