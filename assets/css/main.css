@@ -1072,8 +1072,8 @@
 		background: #252122;
 		background-image: url("images/bg02.png");
 		font-family: 'Source Sans Pro';
-		font-weight: 300;
-		color: #5d5d5d;
+		font-weight: 450;
+		/* color: #5d5d5d; */
 	}
 
 		body.is-loading * {
@@ -1770,7 +1770,7 @@
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 13pt;
+				font-size: 14pt;
 				line-height: 1.75em;
 			}
 
@@ -2018,7 +2018,7 @@
 					display: inline-block;
 					padding: 2.5em 3em;
 					border-radius: 15px;
-					margin: 5em 0 0 0; 
+					margin: 1em 0 0 0; 
 				}
 
 					#banner header h2 {
@@ -2046,8 +2046,7 @@
 				}
 
 				#intro p {
-					margin: 0;
-					max-width: 260px;
+					margin: 57px;
 					text-align: justify;
 				}
 
